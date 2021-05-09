@@ -5,4 +5,4 @@ use App\Example;
 require_once('vendor/autoload.php');
 
 $example = new Example();
-echo $example->test();
+echo $example->test() . PHP_EOL;

@@ -4,7 +4,7 @@ namespace App;
 
 class Example
 {
-    public function testa():string
+    public function test():string
     {
         return 'Hello world';
     }
