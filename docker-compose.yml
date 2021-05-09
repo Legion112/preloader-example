@@ -1,0 +1,8 @@
+services:
+  php:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    entrypoint: ['php', 'index.php']
+    ports:
+      - 8080:8080
